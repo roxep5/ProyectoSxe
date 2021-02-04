@@ -4,8 +4,8 @@ from odoo import models, fields, api
 
 
 class proyecto(models.Model):
-    _name = 'proyecto.proyecto'
-    _description = 'proyecto.proyecto'
+    _name = 'proyecto.suceso'
+    _description = 'proyecto.suceso'
 
     name = fields.Char(string="proyecto")
 #     value = fields.Integer()

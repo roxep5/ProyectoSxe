@@ -19,7 +19,7 @@
 
     <record model="ir.actions.act_window" id="proyecto_list_action">
       <field name="name">La accion de proyecto</field>
-      <field name="res_model">proyecto.proyecto</field>
+      <field name="res_model">proyecto.suceso</field>
       <field name="view_mode">tree,form</field>
       <field name="help" type="html">
         <p class="o_view_nocontent_smiling_face">Tes que crear o primeiro rexistro</p>
@@ -27,8 +27,8 @@
     </record>
 
     <record model="ir.ui.view" id="proyecto_form_view">
-      <field name="name">proyecyo.form</field>
-      <field name="model">proyecto.proyecto</field>
+      <field name="name">suceso.form</field>
+      <field name="model">proyecto.suceso</field>
       <field name="arch" type="xml">
         <form string="Formulario del primer proyecto">
           <sheet>
