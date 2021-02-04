@@ -1,0 +1,6 @@
+<odoo>
+    <data>
+        <menuitem id="main_odoo_proyecto" name="menu 0 del proyecto"/>
+        <menuitem id="menu_proyecto" name="Menu nivel 1 del proyecto" parent="main_odoo_proyecto" action="proyecto_list_action"/>
+    </data>
+</odoo>
